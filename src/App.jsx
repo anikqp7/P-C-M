@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
 // Components
-import Navbar from './components/common/Navbar';
-import Footer from './components/common/Footer';
+import Navbar from './components/Common/Navbar';
+import Footer from './components/Common/Footer';
 
 // Shared Pages
 import Home from './pages/Shared/Home';
