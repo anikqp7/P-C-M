@@ -1,0 +1,113 @@
+.my-clubs-page {
+  min-height: 100vh;
+  padding: 120px 20px 80px !important;
+  background-color: #020814 !important;
+}
+
+.clubs-list-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* এনরোল করা ক্লাব কার্ড */
+.enrolled-card {
+  background: rgba(11, 22, 34, 0.7) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 180, 216, 0.2) !important;
+  padding: 25px 40px !important;
+  border-radius: 8px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.enrolled-card:hover {
+  border-color: #00b4d8 !important;
+  box-shadow: 0 0 20px rgba(0, 180, 216, 0.2);
+  transform: translateX(10px);
+}
+
+.card-accent-line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background: #00b4d8;
+  box-shadow: 0 0 10px #00b4d8;
+}
+
+.enrolled-info {
+  text-align: left;
+}
+
+.enrolled-name {
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.role-badge {
+  display: inline-block;
+  background: rgba(0, 180, 216, 0.1);
+  color: #00b4d8;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+ 
+  font-weight: bold;
+  border: 1px solid rgba(0, 180, 216, 0.3);
+  margin-bottom: 10px;
+}
+
+.joined-date {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.85rem;
+  
+}
+
+.joined-date .label {
+  color: rgba(0, 180, 216, 0.6);
+}
+
+.access-status {
+  color: #00ff88; /* গ্রিন স্ট্যাটাস */
+  
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: rgba(0, 255, 136, 0.05);
+  padding: 8px 15px;
+  border: 1px dashed rgba(0, 255, 136, 0.3);
+}
+
+/* এম্পটি মেসেজ */
+.empty-message {
+  padding: 60px;
+  border: 1px dashed rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.4);
+  font-family: 'Courier New', monospace;
+}
+
+/* মোবাইল ভিউ রেসপনসিভ */
+@media (max-width: 600px) {
+  .enrolled-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 25px !important;
+    gap: 20px;
+  }
+  
+  .access-status {
+    width: 100%;
+    text-align: center;
+  }
+}

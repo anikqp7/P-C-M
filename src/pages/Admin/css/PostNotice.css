@@ -1,0 +1,93 @@
+/* ১. পেজ এবং লেআউট */
+.notice-page {
+  min-height: 100vh;
+  padding: 100px 20px 60px !important;
+  background-color: #020814 !important;
+}
+
+.notice-page .hero-content {
+  width: 95% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+/* ২. মেইন গ্লাস কন্টেইনার */
+.notice-wrapper {
+  width: 100% !important;
+  background: rgba(11, 22, 34, 0.7) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 180, 216, 0.3) !important;
+  border-radius: 4px !important;
+  margin-top: 30px !important;
+  overflow: hidden;
+}
+
+.form-header-bar {
+  background: rgba(0, 180, 216, 0.1) !important;
+  padding: 15px 30px !important;
+  border-bottom: 1px solid rgba(0, 180, 216, 0.2);
+}
+
+.form-inner-padding {
+  padding: 40px 60px !important;
+}
+
+.form-inner-title {
+  color: #00b4d8;
+  margin-bottom: 25px;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 2px;
+}
+
+/* ৩. ইনপুট ও ড্রপডাউন স্টাইল */
+.cyber-form-inner .form-group {
+  margin-bottom: 25px !important;
+  text-align: left !important;
+}
+
+.cyber-form-inner label {
+  color: #00b4d8 !important;
+  font-family: 'Courier New', monospace !important;
+  font-size: 0.9rem !important;
+  margin-bottom: 8px !important;
+  display: block !important;
+}
+
+.cyber-form-inner input, 
+.cyber-form-inner textarea, 
+.cyber-form-inner select {
+  width: 100% !important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  border: 1px solid rgba(0, 180, 216, 0.2) !important;
+  color: #ffffff !important;
+  padding: 15px !important;
+  border-radius: 4px !important;
+  outline: none !important;
+}
+
+/* ক্যাটাগরি কালার ফিক্স - ড্রপডাউন অপশন */
+.cyber-form-inner select option {
+  background-color: #0b1622 !important; 
+  color: #ffffff !important;
+}
+
+/* ৪. বাটন স্টাইল */
+.broadcast-btn {
+  width: 100% !important;
+  background: transparent !important;
+  color: #00b4d8 !important;
+  border: 1px solid #00b4d8 !important;
+  padding: 16px !important;
+  font-family: 'Courier New', monospace !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  cursor: pointer !important;
+  transition: 0.3s !important;
+  letter-spacing: 2px;
+}
+
+.broadcast-btn:hover {
+  background: #00b4d8 !important;
+  color: #020814 !important;
+  box-shadow: 0 0 25px rgba(0, 180, 216, 0.5) !important;
+}

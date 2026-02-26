@@ -1,0 +1,161 @@
+.manage-root {
+  min-height: 100vh;
+  background-color: #020814;
+  padding: 120px 20px 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cyber-grid {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background-image: 
+    linear-gradient(rgba(0, 180, 216, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 180, 216, 0.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+  z-index: 1;
+}
+
+.manage-container {
+  position: relative;
+  z-index: 5;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header-box {
+  border-left: 4px solid #00b4d8;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+.glow-title {
+  color: white;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.sub-text {
+  color: #00b4d8;
+  font-family: 'Courier New', monospace;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+/* Club Cards */
+.club-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.manage-club-card {
+  background: rgba(11, 22, 34, 0.8);
+  border: 1px solid rgba(0, 180, 216, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.manage-club-card:hover {
+  border-color: #00b4d8;
+  background: rgba(0, 180, 216, 0.05);
+  transform: translateX(10px);
+}
+
+.club-info-side {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.index-tag {
+  color: #576574;
+  font-family: 'Courier New', monospace;
+}
+
+.club-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.club-name-text {
+  color: white;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.club-id-tag {
+  color: #00b4d8;
+  font-family: 'Courier New', monospace;
+  font-size: 0.7rem;
+}
+
+/* Buttons */
+.action-side {
+  display: flex;
+  gap: 15px;
+}
+
+.manage-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: 1px solid transparent;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  font-size: 0.75rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.edit-info {
+  color: #00b4d8;
+}
+
+.edit-info:hover {
+  background: rgba(0, 180, 216, 0.1);
+  border-color: #00b4d8;
+}
+
+.deactivate {
+  color: #ff5f56;
+}
+
+.deactivate:hover {
+  background: rgba(255, 95, 86, 0.1);
+  border-color: #ff5f56;
+  box-shadow: 0 0 10px rgba(255, 95, 86, 0.2);
+}
+
+.footer-actions {
+  margin-top: 40px;
+  text-align: right;
+}
+
+.add-club-btn {
+  background: #27c93f;
+  color: #020814;
+  border: none;
+  padding: 12px 25px;
+  font-weight: 900;
+  font-family: 'Courier New', monospace;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+
+.add-club-btn:hover {
+  background: white;
+  box-shadow: 0 0 20px rgba(39, 201, 63, 0.5);
+  transform: translateY(-3px);
+}

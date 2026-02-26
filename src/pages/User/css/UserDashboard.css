@@ -1,0 +1,70 @@
+/* মেইন পেজ ফিক্স */
+.dashboard-page {
+  min-height: 100vh;
+  padding: 120px 20px 80px !important;
+  background-color: #020814 !important; /* জোর করে ডার্ক করা */
+}
+
+/* গ্রিড সেটআপ */
+.clubs-grid {
+  display: grid ;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+  gap: 30px ;
+  margin-top: 50px;
+}
+
+/* ক্লাব কার্ড - গ্লাস থিম */
+.club-card-wrapper {
+  background: rgba(11, 22, 34, 0.8) !important;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 180, 216, 0.3) !important;
+  padding: 40px 30px !important;
+  border-radius: 8px !important;
+  position: relative;
+  transition: 0.4s ease;
+  overflow: hidden;
+}
+
+.club-card-wrapper:hover {
+  transform: translateY(-10px) scale(1.02);
+  border-color: #00b4d8 !important;
+  box-shadow: 0 10px 40px rgba(0, 180, 216, 0.3) !important;
+}
+
+
+/* টেক্সট স্টাইল */
+.club-name {
+  color: #00b4d8 !important;
+  
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.club-desc {
+  color: #ccd6f6 !important;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+}
+
+/* বাটন - ক্লিন আউটলাইন */
+.join-btn {
+  width: 100%;
+  background: transparent !important;
+  color: #00b4d8 !important;
+  border: 1px solid #00b4d8 !important;
+  padding: 14px !important;
+  
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+
+.join-btn:hover {
+  background: #00b4d8 !important;
+  color: #020814 !important;
+  box-shadow: 0 0 20px #00b4d8;
+}

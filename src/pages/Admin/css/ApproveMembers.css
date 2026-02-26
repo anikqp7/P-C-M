@@ -1,0 +1,143 @@
+/* মেইন পেজ কন্টেনার - হোম পেজের সাথে মিল রেখে */
+.approve-page {
+  min-height: 100vh;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  background-color: #020814 !important; /* ডার্ক ব্যাকগ্রাউন্ড নিশ্চিত করা */
+}
+
+/* কন্টেন্ট বক্স চওড়া করা */
+.approve-page .hero-content {
+  width: 95% !important; 
+  max-width: 1400px !important; 
+  margin: 0 auto !important;
+  text-align: center;
+}
+
+/* টেবিল কন্টেইনার - আপনার স্ক্রিনশটের সাদা বক্সটা দূর করতে */
+.table-cyber-container {
+  width: 100% !important;
+  background: rgba(11, 22, 34, 0.9) !important; 
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 180, 216, 0.4) !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+/* টেবিল স্টাইল - সাদা ভাব দূর করতে force transparency */
+.cyber-table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  background-color: transparent !important;
+}
+
+/* টেবিল হেডার - সায়ান গ্লো */
+.cyber-table th {
+  background-color: rgba(0, 180, 216, 0.15) !important;
+  color: #00b4d8 !important;
+  text-align: left;
+  padding: 20px 30px !important; 
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+  border-bottom: 2px solid rgba(0, 180, 216, 0.3);
+  text-transform: uppercase;
+}
+
+/* টেবিল রো এবং ডেটা - প্রতিটি রো সাদা থেকে ডার্ক করা */
+.cyber-table tr {
+  background-color: transparent !important;
+}
+
+.cyber-table td {
+  padding: 20px 30px !important;
+  color: #e2e8f0 !important;
+  border-bottom: 1px solid rgba(0, 180, 216, 0.15) !important;
+  font-size: 1rem;
+  background-color: transparent !important;
+}
+
+/* রো হোভার করলে হালকা নীল আভা */
+.cyber-table tr:hover {
+  background-color: rgba(0, 180, 216, 0.1) !important;
+  transition: 0.3s;
+}
+
+/* আইডি কলাম হাইলাইট */
+.id-col {
+  color: #00b4d8 !important;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+}
+
+/* ক্লাব ট্যাগ স্টাইল */
+.club-tag {
+  background-color: rgba(0, 180, 216, 0.1) !important;
+  color: #00b4d8 !important;
+  padding: 5px 12px;
+  border: 1px solid rgba(0, 180, 216, 0.4);
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+/* বাটন গ্রুপ */
+.action-col {
+  display: flex;
+  gap: 12px;
+}
+
+/* বাটন স্টাইল */
+.auth-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  background: transparent !important;
+}
+
+.approve {
+  color: #27c93f !important;
+  border: 1px solid #27c93f !important;
+}
+
+.approve:hover {
+  background-color: #27c93f !important;
+  color: #020814 !important;
+  box-shadow: 0 0 20px rgba(39, 201, 63, 0.6);
+}
+
+.reject {
+  color: #ff5f56 !important;
+  border: 1px solid #ff5f56 !important;
+}
+
+.reject:hover {
+  background-color: #ff5f56 !important;
+  color: white !important;
+  box-shadow: 0 0 20px rgba(255, 95, 86, 0.6);
+}
+
+/* স্ক্রোলবার স্টাইল (টেবিল চওড়া হলে যেন ডার্ক থিমে থাকে) */
+.table-cyber-container::-webkit-scrollbar {
+  height: 8px;
+}
+.table-cyber-container::-webkit-scrollbar-track {
+  background: #020814;
+}
+.table-cyber-container::-webkit-scrollbar-thumb {
+  background: #00b4d8;
+  border-radius: 10px;
+}
