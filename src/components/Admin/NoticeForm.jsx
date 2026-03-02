@@ -22,10 +22,10 @@ const NoticeForm = ({ onPost }) => {
 
   return (
     <div className="cyber-form-container">
-      <h4 className="form-inner-title">CREATE_NEW_BROADCAST</h4>
+      <h4 className="form-inner-title">CREATE-NEW-NOTICE</h4>
       <form onSubmit={handleSubmit} className="cyber-form-inner">
         <div className="form-group">
-          <label>TARGET_CLUB</label>
+          <label>TARGET-CLUB</label>
           <select 
             name="club" 
             value={notice.club} 
@@ -62,7 +62,7 @@ const NoticeForm = ({ onPost }) => {
         </div>
 
         <button type="submit" className="broadcast-btn">
-          PUBLISH_NOTICE
+          PUBLISH-NOTICE
         </button>
       </form>
     </div>

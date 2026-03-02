@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 :root {
   --primary-color: #004a99;
@@ -20,7 +19,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: var(--bg-color);
   color: var(--text-dark);
   line-height: 1.6;
@@ -51,7 +50,7 @@ button:hover {
   border-radius: 12px;
   padding: 20px;
   box-shadow: var(--shadow);
-  border: 1px solid rgba(0,0,0,0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   transition: var(--transition);
 }
 
@@ -88,8 +87,9 @@ tr:last-child td {
   border-bottom: none;
 }
 
-
-input, textarea, select {
+input,
+textarea,
+select {
   width: 100%;
   padding: 12px;
   border: 1px solid #ddd;
@@ -103,7 +103,6 @@ input:focus {
   border-color: var(--primary-color);
   box-shadow: 0 0 5px rgba(0, 74, 153, 0.2);
 }
-
 
 /* --- Navbar --- */
 .cyber-nav {
@@ -173,7 +172,7 @@ input:focus {
 
 .brand-sub {
   color: #576574;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 0.7rem;
   font-weight: bold;
   margin-top: -5px;
@@ -206,7 +205,8 @@ input:focus {
   text-transform: uppercase;
 }
 
-.cyber-link:hover, .cyber-link.active {
+.cyber-link:hover,
+.cyber-link.active {
   color: #00b4d8;
   background: rgba(0, 180, 216, 0.1);
   box-shadow: inset 0 0 10px rgba(0, 180, 216, 0.1);
@@ -218,7 +218,7 @@ input:focus {
 }
 
 .notice-pulse::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 6px;
   right: 6px;
@@ -231,9 +231,18 @@ input:focus {
 }
 
 @keyframes pulse-orange {
-  0% { transform: scale(0.95); opacity: 1; }
-  70% { transform: scale(2); opacity: 0; }
-  100% { transform: scale(0.95); opacity: 0; }
+  0% {
+    transform: scale(0.95);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
 }
 
 /* --- Action Buttons --- */
@@ -338,7 +347,6 @@ input:focus {
   }
 }
 
-
 @media (min-width: 1025px) {
   .role-links {
     display: flex;
@@ -346,13 +354,7 @@ input:focus {
   }
 }
 
-
-
-
-
-
 /* ---  Home Styles --- */
-
 
 .cyber-home {
   min-height: 100vh;
@@ -365,13 +367,12 @@ input:focus {
   padding: 100px 20px;
 }
 
-
-
-
 .glow-sphere {
   position: absolute;
-  top: 20%; left: 50%;
-  width: 400px; height: 400px;
+  top: 20%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
   background: radial-gradient(circle, rgba(0, 180, 216, 0.15), transparent 70%);
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -396,12 +397,22 @@ input:focus {
   margin-bottom: 30px;
 }
 
-.dot { width: 10px; height: 10px; border-radius: 50%; }
-.red { background: #ff5f56; }
-.yellow { background: #ffbd2e; }
-.green { background: #27c93f; }
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.red {
+  background: #ff5f56;
+}
+.yellow {
+  background: #ffbd2e;
+}
+.green {
+  background: #27c93f;
+}
 .terminal-text {
-  font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
   font-size: 0.8rem;
   color: #00b4d8;
   letter-spacing: 1px;
@@ -409,14 +420,14 @@ input:focus {
 
 .hero-title {
   font-size: clamp(2.5rem, 8vw, 5rem);
-  font-weight: 900;
+  font-weight: 800;
   color: white;
   margin-bottom: 20px;
   letter-spacing: -2px;
 }
 
 .hero-subtitle {
-  font-family: 'Courier New';
+  font-family: "Courier New";
   color: #c6d0da;
   font-size: 1.1rem;
   max-width: 800px;
@@ -444,17 +455,21 @@ input:focus {
 
 .card-edge {
   position: absolute;
-  top: 0; right: 0;
-  width: 30px; height: 30px;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
   background: #00b4d8;
   clip-path: polygon(100% 0, 0 0, 100% 100%);
   opacity: 0.5;
 }
 
-.card-icon-box { color: #00b4d8; margin-bottom: 25px; }
+.card-icon-box {
+  color: #00b4d8;
+  margin-bottom: 25px;
+}
 
-.cyber-card h3  {
- 
+.cyber-card h3 {
   font-size: 1.3rem;
   color: #fff;
   margin-bottom: 15px;
@@ -464,7 +479,6 @@ input:focus {
   margin-top: 25px;
   font-size: 0.7rem;
   color: #727e91;
-  
 
   padding-top: 10px;
 }
@@ -511,8 +525,8 @@ input:focus {
 }
 .home-card-container {
   display: grid;
-  
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 25px;
   width: 100%;
   max-width: 1200px;
@@ -541,7 +555,9 @@ input:focus {
   transition: 0.5s;
 }
 
-.photo-item:hover img { transform: scale(1.1); }
+.photo-item:hover img {
+  transform: scale(1.1);
+}
 
 .img-tag {
   position: absolute;
@@ -565,10 +581,68 @@ input:focus {
   padding-bottom: 10px;
 }
 
+/* --- Only for Mobile Devices --- */
+@media (max-width: 768px) {
+  .cyber-home {
+    padding: 60px 15px;
+    display: block;
+  }
 
+  .hero-title {
+    font-size: 2.2rem;
+    margin-top: 20px;
+    line-height: 1.1;
+    word-break: break-word;
+  }
 
+  .hero-subtitle {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    padding: 0 5px;
+  }
 
+  .hero-action {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
 
+  .cyber-btn-primary,
+  .cyber-btn-outline {
+    width: 100%;
+    justify-content: center;
+    padding: 14px;
+    font-size: 0.9rem;
+  }
+
+  .home-card-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 40px 0;
+  }
+
+  .cyber-card {
+    padding: 25px 20px;
+  }
+
+  .photo-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .photo-item {
+    height: 220px;
+  }
+
+  .section-divider {
+    font-size: 1.1rem;
+    margin: 30px 0 15px;
+    text-align: center;
+    display: block;
+    letter-spacing: 2px;
+  }
+}
 
 
 
@@ -580,13 +654,18 @@ input:focus {
   padding: 60px 20px 30px;
   overflow: hidden;
   border-top: 1px solid rgba(0, 180, 216, 0.2);
-  
 }
 
 .footer-grid-bg {
   position: absolute;
-  top: 0; left: 0; width: 100%; height: 100%;
-  background-image: linear-gradient(rgba(0, 180, 216, 0.03) 1px, transparent 1px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    rgba(0, 180, 216, 0.03) 1px,
+    transparent 1px
+  );
   background-size: 100% 40px;
   pointer-events: none;
 }
@@ -628,7 +707,7 @@ input:focus {
 
 .brand-info p {
   color: #a7b3c5;
-  font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
   font-size: 0.7rem;
   margin: 0;
 }
@@ -661,7 +740,12 @@ input:focus {
 
 .footer-divider {
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(0, 180, 216, 0.3), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 180, 216, 0.3),
+    transparent
+  );
   margin-bottom: 30px;
 }
 
@@ -673,7 +757,6 @@ input:focus {
 }
 
 .footer-credits {
-  
   display: flex;
   align-items: center;
   gap: 8px;
@@ -685,11 +768,12 @@ input:focus {
   font-weight: bold;
 }
 
-.term-icon { color: #00b4d8; }
+.term-icon {
+  color: #00b4d8;
+}
 
 .footer-copy {
   text-align: right;
-
 }
 
 .footer-copy p {
@@ -699,10 +783,9 @@ input:focus {
 }
 
 .footer-copy small {
-  font-size: 0.70rem;
+  font-size: 0.7rem;
   letter-spacing: 1px;
 }
-
 
 /* --- Cyber Login Style (Merged with Original Pattern) --- */
 .login-page {
@@ -719,8 +802,14 @@ input:focus {
 
 .login-bg-grid {
   position: absolute;
-  top: 0; left: 0; width: 100%; height: 100%;
-  background-image: radial-gradient(rgba(0, 180, 216, 0.1) 1px, transparent 1px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+    rgba(0, 180, 216, 0.1) 1px,
+    transparent 1px
+  );
   background-size: 30px 30px;
   z-index: 1;
 }
@@ -734,7 +823,7 @@ input:focus {
   backdrop-filter: blur(12px);
   border: 1px solid rgba(0, 180, 216, 0.2);
   border-top: 4px solid #00b4d8;
-  padding: 30px; 
+  padding: 30px;
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
   text-align: center;
   border-radius: 4px;
@@ -861,9 +950,6 @@ input:focus {
   text-shadow: 0 0 10px rgba(0, 180, 216, 0.5);
 }
 
-
-
-
 /* --- Batch Selector (Matched with Login Input) --- */
 .cyber-select {
   width: 100%;
@@ -892,7 +978,7 @@ input:focus {
 
 /* কাস্টম অ্যারো যেন ইনপুটের ভেতরে থাকে */
 .batch-selector::after {
-  content: '▼';
+  content: "▼";
   position: absolute;
   right: 15px;
   top: 50%;

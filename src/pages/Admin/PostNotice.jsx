@@ -16,7 +16,7 @@ const PostNotice = () => {
           <span className="dot red"></span>
           <span className="dot yellow"></span>
           <span className="dot green"></span>
-          <span className="terminal-text">broadcast_protocol=active</span>
+          <span className="terminal-text">status=active</span>
         </div>
 
         <h1 className="hero-title">
@@ -30,7 +30,7 @@ const PostNotice = () => {
 
         <div className="notice-wrapper">
           <div className="form-header-bar">
-            <span className="access-text">SECURE_BROADCAST_INTERFACE</span>
+            <span className="access-text">SECURE-NOTICE-INTERFACE</span>
           </div>
           <div className="form-inner-padding">
             <NoticeForm onPost={handlePost} />

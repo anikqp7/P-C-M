@@ -5,6 +5,8 @@ import { Code, Cpu, MessageSquare, Terminal, ChevronRight } from 'lucide-react';
 const Home = () => {
   return (
     <div className="cyber-home">
+
+      
      
       
       <div className="glow-sphere"></div>
@@ -27,6 +29,7 @@ const Home = () => {
           <span className="highlight"> Pundra University CSE Department</span>.
         </p>
 
+          <h2 className="section-divider">EXISTING-CLUB</h2>
         <div className="home-card-container">
           {/* Programming Club */}
           <div className="cyber-card">
