@@ -17,7 +17,7 @@ import ApproveMembers from './pages/Admin/ApproveMembers';
 import PostNotice from './pages/Admin/PostNotice';
 
 // User Pages
-//import UserDashboard from './pages/User/MyProfile';
+
 import MyProfile from './pages/User/MyProfile';
 import UserDashboard from './pages/User/UserDashboard';
 import MyClubs from './pages/User/MyClubs';
@@ -32,12 +32,12 @@ function App() {
       
       <div>
         <Routes>
-          {/* সবার জন্য উন্মুক্ত */}
+          {/*for all*/}
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login setUserRole={setUserRole} />} />
           <Route path="/register" element={<Register />} />
           
-          {/* Admin Routes (শুধুমাত্র admin হলে দেখা যাবে) */}
+          {/* only Admin  */}
           {userRole === 'admin' ? (
             <>
               <Route path="/admin-dashboard" element={<AdminDashboard />} />
@@ -47,10 +47,10 @@ function App() {
             </>
           ) : null}
 
-          {/* User Routes (শুধুমাত্র user হলে দেখা যাবে) */}
+          {/* only User*/}
           {userRole === 'user' ? (
             <>
-            {/*<Route path="/my-profile" element={<MyProfile />} />*/}
+            
             <Route path="/profile" element={<MyProfile />} />
               <Route path="/user-dashboard" element={<UserDashboard />} />
               <Route path="/my-clubs" element={<MyClubs />} />
@@ -59,7 +59,7 @@ function App() {
             </>
           ) : null}
 
-          {/* যদি কেউ ভুল পেজে যায় বা পারমিশন না থাকে তাকে হোমে পাঠিয়ে দাও */}
+         
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>

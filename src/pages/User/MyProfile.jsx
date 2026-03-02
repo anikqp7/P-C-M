@@ -2,7 +2,7 @@ import React from 'react';
 import './css/MyProfile.css';
 
 const MyProfile = () => {
-  // ডামি ইউজার ডাটা (পরে ব্যাকেন্ড থেকে আসবে)
+
   const userData = {
     name: "Tanvir Ahmed",
     studentId: "2021000123",
@@ -22,7 +22,7 @@ const MyProfile = () => {
           <span className="dot red"></span>
           <span className="dot yellow"></span>
           <span className="dot green"></span>
-          <span className="terminal-text">identity_auth=success</span>
+          <span className="terminal-text">identity</span>
         </div>
 
         <h1 className="hero-title">
@@ -30,7 +30,7 @@ const MyProfile = () => {
         </h1>
 
         <div className="profile-wrapper">
-          {/* প্রোফাইল কার্ডের বাম পাশ (Avatar & Basic Info) */}
+          
           <div className="profile-card-left">
             <div className="avatar-frame">
               <div className="avatar-placeholder">
@@ -39,10 +39,10 @@ const MyProfile = () => {
               <div className="online-indicator"></div>
             </div>
             <h2 className="user-display-name">{userData.name}</h2>
-            <p className="user-rank">{userData.rank}</p>
+            
           </div>
 
-          {/* প্রোফাইল কার্ডের ডান পাশ (Details) */}
+          
           <div className="profile-details-right">
             <div className="info-grid">
               <div className="info-item">
@@ -59,7 +59,7 @@ const MyProfile = () => {
               </div>
               <div className="info-item">
                 <label>CLUBS_ENROLLED</label>
-                <p>{userData.joinedClubs}</p>
+                <p>2</p>
               </div>
             </div>
             

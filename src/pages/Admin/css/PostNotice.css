@@ -1,4 +1,4 @@
-/* ১. পেজ এবং লেআউট */
+
 .notice-page {
   min-height: 100vh;
   padding: 100px 20px 60px !important;
@@ -11,7 +11,7 @@
   margin: 0 auto !important;
 }
 
-/* ২. মেইন গ্লাস কন্টেইনার */
+
 .notice-wrapper {
   width: 100% !important;
   background: rgba(11, 22, 34, 0.7) !important;
@@ -39,7 +39,7 @@
   letter-spacing: 2px;
 }
 
-/* ৩. ইনপুট ও ড্রপডাউন স্টাইল */
+
 .cyber-form-inner .form-group {
   margin-bottom: 25px !important;
   text-align: left !important;
@@ -65,13 +65,13 @@
   outline: none !important;
 }
 
-/* ক্যাটাগরি কালার ফিক্স - ড্রপডাউন অপশন */
+
 .cyber-form-inner select option {
   background-color: #0b1622 !important; 
   color: #ffffff !important;
 }
 
-/* ৪. বাটন স্টাইল */
+
 .broadcast-btn {
   width: 100% !important;
   background: transparent !important;

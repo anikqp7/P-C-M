@@ -2,7 +2,7 @@ import React from 'react';
 import './css/ViewNotices.css';
 
 const ViewNotices = () => {
-  // ডামি নোটিশ ডাটা
+  // Dami notice data
   const notices = [
     { id: 1, title: "Programming Contest 2024", date: "2024-05-20", dept: "CPC" },
     { id: 2, title: "Robotics Workshop Registration", date: "2024-05-22", dept: "Robotics" },
@@ -38,11 +38,11 @@ const ViewNotices = () => {
               <div className="notice-main-info">
                 <h4 className="notice-item-title">{notice.title}</h4>
                 <div className="notice-meta-data">
-                  <span className="notice-dept-tag">CLUB_{notice.dept}</span>
-                  <span className="notice-post-date">POSTED_ON: {notice.date}</span>
+                  <span className="notice-dept-tag">CLUB-{notice.dept}</span>
+                  <span className="notice-post-date">POSTED ON: {notice.date}</span>
                 </div>
               </div>
-              <div className="view-detail-btn">VIEW_DATA</div>
+              <div className="view-detail-btn">VIEW</div>
             </div>
           ))}
         </div>

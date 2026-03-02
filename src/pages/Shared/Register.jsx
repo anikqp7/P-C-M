@@ -13,7 +13,7 @@ const Register = () => {
           <UserPlus size={30} />
         </div>
 
-        {/* আপনার অরিজিনাল টেক্ */}
+       
         <div className="login-header">
           <h2 className="glow-text">Student Registration</h2>
           <p className="dept-text">Department of CSE, Pundra University</p>
@@ -28,7 +28,7 @@ const Register = () => {
             <input type="text" placeholder="Student ID" required />
           </div>
 
-          {/* ব্যাচ সিলেকশন - লগইন ইনপুটের হুবহু সেইম স্টাইল */}
+          
           <div className="input-group-cyber batch-selector">
             <select required className="cyber-select">
               <option value="" disabled selected>Select Batch</option>
@@ -53,7 +53,7 @@ const Register = () => {
           </button>
         </form>
         
-        {/* লগইন পেজের হুবহু সেইম টিপস বক্স স্টাইল */}
+        
         <div className="login-tips">
           <div className="tip-header">
             <Info size={14} /> <span>SYSTEM_PROTOCOL</span>

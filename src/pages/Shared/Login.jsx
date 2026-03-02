@@ -10,7 +10,7 @@ const Login = ({ setUserRole }) => {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    // আপনার দেওয়া অরিজিনাল লজিক
+    // logic
     if (username.toLowerCase() === 'admin') {
       setUserRole('admin');
       navigate('/admin-dashboard');
@@ -22,16 +22,16 @@ const Login = ({ setUserRole }) => {
 
   return (
     <div className="login-page">
-      {/* Background Decor */}
+     
       <div className="login-bg-grid"></div>
       
       <div className="login-card-cyber">
-        {/* লোগো আইকন */}
+      
         <div className="auth-icon-box">
           <ShieldCheck size={30} />
         </div>
 
-        {/* আপনার অরিজিনাল টেক্সট প্যাটার্ন */}
+        
         <div className="login-header">
           <h2 className="glow-text">PUB CSE-Connect Login</h2>
           <p className="dept-text">Department of CSE, Pundra University</p>
@@ -63,7 +63,7 @@ const Login = ({ setUserRole }) => {
           </button>
         </form>
         
-        {/* আপনার অরিজিনাল Tip/Hint সেকশন */}
+       
         <div className="login-tips">
           <div className="tip-header">
             <Info size={14} /> <span>SYSTEM_HINT</span>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/AdminDashboard.css'; // আলাদা সিএসএস ফাইল ইম্পোর্ট
+import './css/AdminDashboard.css'; 
 import { Users, PlusCircle, Activity, ShieldAlert, Edit3, Trash2, Eye, Settings } from 'lucide-react';
 
 const AdminDashboard = () => {
@@ -11,17 +11,16 @@ const AdminDashboard = () => {
 
   return (
     <div className="admin-root">
-      {/* Background Effects */}
-      <div className="admin-grid-bg"></div>
+  
       
       <div className="admin-container">
         <header className="admin-header">
           <div className="header-text">
-            <h2 className="cyber-title">ADMIN_COMMAND_CENTER</h2>
-            <p className="system-status">System Status: <span className="pulse-text">ACTIVE_NODE</span></p>
+            <h2 className="cyber-title">ADMIN-DASHBOARD</h2>
+            <p className="system-status">System Status: <span className="pulse-text">ACTIVE</span></p>
           </div>
           <button className="create-btn">
-            <PlusCircle size={18} /> CREATE_NEW_ENTITY
+            <PlusCircle size={18} /> CREATE-NEW-ENTITY
           </button>
         </header>
 

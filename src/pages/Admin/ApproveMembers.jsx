@@ -20,8 +20,8 @@ const ApproveMembers = () => {
   };
 
   return (
-    <div className="cyber-home approve-page"> {/* Home.jsx এর মেইন ক্লাস */}
-      <div className="grid-overlay"></div>
+    <div className="cyber-home approve-page"> 
+     
       <div className="glow-sphere"></div>
 
       <div className="hero-content">
@@ -41,7 +41,7 @@ const ApproveMembers = () => {
           <span className="highlight">Authorize departmental club members</span>.
         </p>
 
-        {/* টেবিল কন্টেইনার */}
+      
         <div className="table-cyber-container">
           <MemberTable requests={requests} onAction={handleAction} />
         </div>

@@ -13,7 +13,7 @@
   gap: 20px;
 }
 
-/* এনরোল করা ক্লাব কার্ড */
+
 .enrolled-card {
   background: rgba(11, 22, 34, 0.7) !important;
   backdrop-filter: blur(10px);
@@ -79,7 +79,7 @@
 }
 
 .access-status {
-  color: #00ff88; /* গ্রিন স্ট্যাটাস */
+  color: #00ff88; 
   
   font-size: 0.75rem;
   font-weight: bold;
@@ -89,7 +89,7 @@
   border: 1px dashed rgba(0, 255, 136, 0.3);
 }
 
-/* এম্পটি মেসেজ */
+
 .empty-message {
   padding: 60px;
   border: 1px dashed rgba(255, 255, 255, 0.1);
@@ -97,7 +97,7 @@
   font-family: 'Courier New', monospace;
 }
 
-/* মোবাইল ভিউ রেসপনসিভ */
+
 @media (max-width: 600px) {
   .enrolled-card {
     flex-direction: column;

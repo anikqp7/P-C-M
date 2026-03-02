@@ -39,7 +39,7 @@ const Navbar = ({ role }) => {
                 <LogIn size={18} /> <span>Log in</span>
               </NavLink>
               <Link to="/register" className="nav-btn-highlight" onClick={closeMenu}>
-                JOIN_COMMUNITY
+                JOIN COMMUNITY
               </Link>
             </>
           )}

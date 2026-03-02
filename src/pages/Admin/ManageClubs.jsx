@@ -11,13 +11,13 @@ const ManageClubs = () => {
 
   return (
     <div className="manage-root">
-      <div className="cyber-grid"></div>
+     
       
       <div className="manage-container">
         <div className="header-box">
-          <Terminal size={20} className="header-icon" />
-          <h2 className="glow-title">MANAGE_CLUBS_INTERFACE</h2>
-          <p className="sub-text">System Path: /root/admin/clubs</p>
+          
+          <h2 className="glow-title">MANAGE-CLUBS</h2>
+         
         </div>
 
         <div className="club-list-wrapper">
@@ -45,7 +45,7 @@ const ManageClubs = () => {
 
         <div className="footer-actions">
           <button className="add-club-btn">
-            <Plus size={20} /> ADD_NEW_ENTITY
+            <Plus size={20} /> ADD-NEW-CLUB
           </button>
         </div>
       </div>

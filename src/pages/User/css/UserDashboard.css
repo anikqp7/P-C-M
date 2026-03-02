@@ -1,19 +1,19 @@
-/* মেইন পেজ ফিক্স */
+
 .dashboard-page {
   min-height: 100vh;
   padding: 120px 20px 80px !important;
-  background-color: #020814 !important; /* জোর করে ডার্ক করা */
+  background-color: #020814 !important; 
 }
 
-/* গ্রিড সেটআপ */
+
 .clubs-grid {
-  display: grid ;
+  display: flex ;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
   gap: 30px ;
   margin-top: 50px;
 }
 
-/* ক্লাব কার্ড - গ্লাস থিম */
+
 .club-card-wrapper {
   background: rgba(11, 22, 34, 0.8) !important;
   backdrop-filter: blur(12px);
@@ -32,7 +32,7 @@
 }
 
 
-/* টেক্সট স্টাইল */
+
 .club-name {
   color: #00b4d8 !important;
   
@@ -48,7 +48,7 @@
   font-size: 0.95rem;
 }
 
-/* বাটন - ক্লিন আউটলাইন */
+
 .join-btn {
   width: 100%;
   background: transparent !important;

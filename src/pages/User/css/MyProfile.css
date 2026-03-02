@@ -16,7 +16,7 @@
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 }
 
-/* বাম পাশের স্টাইল */
+
 .profile-card-left {
   flex: 1;
   background: rgba(0, 180, 216, 0.05);
@@ -70,12 +70,12 @@
 
 .user-rank {
   color: #00b4d8;
-  font-family: 'Courier New', monospace;
+  
   font-size: 0.8rem;
   letter-spacing: 2px;
 }
 
-/* ডান পাশের স্টাইল */
+
 .profile-details-right {
   flex: 2;
   padding: 50px;
@@ -93,7 +93,7 @@
   display: block;
   color: #00b4d8;
   font-size: 0.75rem;
-  font-family: 'Courier New', monospace;
+  
   margin-bottom: 8px;
   letter-spacing: 1px;
 }
@@ -124,7 +124,7 @@
   box-shadow: 0 0 15px rgba(0, 180, 216, 0.3);
 }
 
-/* মোবাইল ভিউ */
+
 @media (max-width: 768px) {
   .profile-wrapper {
     flex-direction: column;
